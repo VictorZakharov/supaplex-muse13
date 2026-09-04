@@ -1,0 +1,15 @@
+export const Config = {
+  tickRate: 12,
+  tileSize: 1,
+  gravityRollEnabled: true,
+  orangeFuseTicks: 10,
+  yellowFuseTicks: 14,
+  chainFuseTicks: 2,
+  explosionRadius: 1,
+  portPeriodTicks: 26,
+  cameraLerp: 6,
+  meshLerp: 14,
+  tileLerp: 14,
+  playerMoveInterval: 0.11,
+  cameraViewHeight: 12,
+} as const;

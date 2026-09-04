@@ -1,0 +1,41 @@
+{
+  "name": "supaplex-remastered-aaa",
+  "version": "1.0.0",
+  "description": "Enterprise-grade Supaplex clone — Triple-A Three.js remaster with Webpack 5",
+  "license": "MIT",
+  "author": "Victor Zakharov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorZakharov/supaplex-muse13.git"
+  },
+  "homepage": "https://github.com/VictorZakharov/supaplex-muse13#readme",
+  "bugs": {
+    "url": "https://github.com/VictorZakharov/supaplex-muse13/issues"
+  },
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js",
+    "build:dev": "webpack --config webpack.dev.js",
+    "typecheck": "tsc --noEmit",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2",
+    "webpack-merge": "^5.10.0",
+    "rimraf": "^5.0.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
