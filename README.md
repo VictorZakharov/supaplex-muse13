@@ -1,5 +1,7 @@
 # SUPAPLEX — AAA Remastered
 
+▶ **Play it live: https://victorzakharov.github.io/supaplex-muse13/**
+
 Enterprise-grade Supaplex clone. Webpack 5 + TypeScript + Three.js with bloom post-processing,
 GPU particles, cinematic lighting, synth audio, and six handcrafted sectors.
 
@@ -50,3 +52,9 @@ src/
 4. Port Authority — gravity ports
 5. Yellow Fever — chain reactions
 6. Core Meltdown — everything combined
+
+## Related Supaplex projects
+
+- [Supaplex Deepseek V4-F](https://github.com/VictorZakharov/supaplex-deepseek-v4-f)
+- [Supaplex Sonnet 5](https://github.com/VictorZakharov/supaplex-sonnet5)
+- [Neonplex](https://github.com/VictorZakharov/neonplex)
