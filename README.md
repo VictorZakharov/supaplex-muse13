@@ -5,6 +5,15 @@
 Enterprise-grade Supaplex clone. Webpack 5 + TypeScript + Three.js with bloom post-processing,
 GPU particles, cinematic lighting, synth audio, and six handcrafted sectors.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td width="50%" align="center"><strong>Main menu</strong><br/><img src="screenshots/supaplex_muse13_menu.jpg" alt="Supaplex AAA Remastered main menu" /></td>
+    <td width="50%" align="center"><strong>Gameplay — Boot Sector</strong><br/><img src="screenshots/supaplex_muse13_game.jpg" alt="Supaplex AAA Remastered gameplay" /></td>
+  </tr>
+</table>
+
 ## Quick start
 
 ```bash
