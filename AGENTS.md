@@ -162,3 +162,11 @@ src/
   (`game-canvas, hud, overlay`) are load-bearing (`main.ts`, `Game`, `Hud`).
 - Level rows may vary in length; `LevelGrid` pads with Empty (width = longest row).
 - No tests/lint — verify with `npm run typecheck` and `npm run build`.
+
+## Branching / Merge Policy (CI-enforced)
+
+- `main` accepts only merge commits (repo allows merge commits, squash/rebase disabled).
+- PR branches must be linear: `.github/workflows/branch-policy.yml` fails the PR
+  if its range contains any merge commit. Rebase instead:
+  `git fetch origin && git rebase origin/main`.
+- `main` branch protection requires the `linear-history` check + PR review before merging.
